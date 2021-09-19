@@ -1,0 +1,14 @@
+<div class="row">
+  <div class="col-md-6">
+    <h4>{{ todo.title }}</h4>
+    <p>{{ todo.desc }}</p>
+  </div>
+  <div class="col-md-6">
+    <button
+      (click)="onClick(todo)"
+      class="btn btn-sm btn-danger align-self-center"
+    >
+      Delete
+    </button>
+  </div>
+</div>
